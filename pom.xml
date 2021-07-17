@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mnazarova</groupId>
-    <artifactId>Kurs_DB!</artifactId>
+    <artifactId>pharmacy2020</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <name>SpringBootAngularJS</name>
