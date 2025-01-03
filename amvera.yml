@@ -11,3 +11,16 @@ run:
   jarName: pharmacy2020-1.0-SNAPSHOT.jar
   persistenceMount: /data
   containerPort: 8080
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://amvera-mnazarova-cnpg-db-test-rw:5432/kursovik
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
